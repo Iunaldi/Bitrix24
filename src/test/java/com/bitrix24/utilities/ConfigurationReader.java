@@ -15,6 +15,7 @@ public class ConfigurationReader {
         String path = "configuration.properties";
 
         try {
+
             //3- we need to open the file
             FileInputStream file = new FileInputStream(path);
             //4- we need to load the file to properties object
